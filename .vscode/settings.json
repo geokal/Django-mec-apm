@@ -1,0 +1,10 @@
+{
+  "python.formatting.provider": "yapf",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintArgs": [
+    "--load-plugin=pylint_django", "indent_width: 4",
+    "--django-settings-module=apm_project.settings"
+  ],
+  "python.pythonPath": "/home/ubuntu/.local/share/virtualenvs/apm-ZbJdNbBd/bin/python"
+}
